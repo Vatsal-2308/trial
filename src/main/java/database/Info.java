@@ -222,6 +222,7 @@ public class Info {
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response country(@NotNull
 							@QueryParam("name") String name) throws SQLException{
+		return Response.ok("result",MediaType.APPLICATION_JSON).build();
 		Connection conn = DBUtil.getConnection();
 		String myQuery = "select * from authors";
 		String i= name;
