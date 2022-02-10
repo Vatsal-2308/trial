@@ -94,8 +94,8 @@
 				<configuration>
 					<scanIntervalSeconds>2</scanIntervalSeconds>
 					<httpConnector>
-						<host>localhost</host>
-						<port>8082</port>
+						<host>ec2-54-156-110-139.compute-1.amazonaws.com</host>
+						<port>process.env.PORT</port>
 					</httpConnector>
 				</configuration>
 			</plugin>
