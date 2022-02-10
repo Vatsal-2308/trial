@@ -1,1 +1,1 @@
-web:node src/main/java/databse/Info.java
+web: java -jar target/DropWizardExample-0.0.1-SNAPSHOT.jar
