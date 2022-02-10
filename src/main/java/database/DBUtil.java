@@ -23,15 +23,10 @@ public class DBUtil {
                 //Class.forName(driver);
 
                 Connection connection = DriverManager.getConnection(url,user,password);
-                if(connection!=null)
-                {
-                    System.out.println("Connection DOne");
-                }
-                
-
+		return connection;
             }
 
-            return connection;
+            
         }
 
     }
