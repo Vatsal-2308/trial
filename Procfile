@@ -1,1 +1,1 @@
-src/main/java/databse/Info.java
+web:node src/main/java/databse/Info.java
